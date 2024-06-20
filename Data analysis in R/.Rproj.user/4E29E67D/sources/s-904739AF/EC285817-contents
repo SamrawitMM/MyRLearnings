@@ -1,0 +1,9 @@
+# Task 1
+
+library(dplyr)
+
+setwd("/home/samrawit/R Learnings/NDMC and ABREN Training/Session 1/Data analysis in R")
+am_data <- read.csv("am_data.csv")
+
+class(am_data)
+glimpse(am_data)
